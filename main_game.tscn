@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://hwmvnu1ww62k"]
+
+[ext_resource type="Script" path="res://Player.gd" id="1_oo3nj"]
+[ext_resource type="Texture2D" uid="uid://d17ntjmmwtpke" path="res://icon.svg" id="2_7r8me"]
+[ext_resource type="Resource" uid="uid://cf3dxtqa32f2a" path="res://PlayerStat.tres" id="2_goy3a"]
+
+[node name="MainGame" type="Node2D"]
+
+[node name="Player" type="Node2D" parent="."]
+script = ExtResource("1_oo3nj")
+player_stat = ExtResource("2_goy3a")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+position = Vector2(565, 287)
+rotation = 1.57952
+texture = ExtResource("2_7r8me")
