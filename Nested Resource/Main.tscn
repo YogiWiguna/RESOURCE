@@ -1,0 +1,46 @@
+[gd_scene load_steps=10 format=3 uid="uid://cg2qnstog2l5w"]
+
+[ext_resource type="PackedScene" uid="uid://bn0dhgobdmwv5" path="res://Nested Resource/Player.tscn" id="1_x1k3f"]
+[ext_resource type="Script" path="res://Nested Resource/player_resource.gd" id="2_h51m5"]
+[ext_resource type="Script" path="res://Nested Resource/damage.gd" id="2_ld4ga"]
+
+[sub_resource type="Resource" id="Resource_1eq17"]
+script = ExtResource("2_ld4ga")
+damage = 75
+
+[sub_resource type="Resource" id="Resource_bif1m"]
+script = ExtResource("2_h51m5")
+name = "Player 1"
+damage_resource = SubResource("Resource_1eq17")
+
+[sub_resource type="Resource" id="Resource_mccce"]
+script = ExtResource("2_ld4ga")
+damage = 50
+
+[sub_resource type="Resource" id="Resource_8rfri"]
+script = ExtResource("2_h51m5")
+name = "Player 2"
+damage_resource = SubResource("Resource_mccce")
+
+[sub_resource type="Resource" id="Resource_r1wdp"]
+script = ExtResource("2_ld4ga")
+damage = 100
+
+[sub_resource type="Resource" id="Resource_smp5w"]
+script = ExtResource("2_h51m5")
+name = "Player 3"
+damage_resource = SubResource("Resource_r1wdp")
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_x1k3f")]
+position = Vector2(865, 365)
+player_resource = SubResource("Resource_bif1m")
+
+[node name="Player2" parent="." instance=ExtResource("1_x1k3f")]
+position = Vector2(563, 475)
+player_resource = SubResource("Resource_8rfri")
+
+[node name="Player3" parent="." instance=ExtResource("1_x1k3f")]
+position = Vector2(235, 368)
+player_resource = SubResource("Resource_smp5w")

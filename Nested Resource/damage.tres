@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="DAMAGE" load_steps=2 format=3 uid="uid://dkra14xm3kv2e"]
+
+[ext_resource type="Script" path="res://Nested Resource/damage.gd" id="1_p4anj"]
+
+[resource]
+script = ExtResource("1_p4anj")
+damage = 0

@@ -1,5 +1,6 @@
-res://main_game.tscn
-res://Player.gd
-res://PlayerStat.gd
-res://PlayerStat.tres
-res://Global.gd
+res://Nested Resource/Player.tscn
+res://Nested Resource/Main.tscn
+res://Nested Resource/Player.gd
+res://Nested Resource/player_resource.gd
+res://Nested Resource/player_resource.tres
+res://Nested Resource/damage.gd

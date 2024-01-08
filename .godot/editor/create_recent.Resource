@@ -1,2 +1,4 @@
+DAMAGE
+PlayerResource
 PlayerStat
 Resource

@@ -1,3 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704606693
+::res://::1704618177
+Global.gd::GDScript::-1::1704608826::0::1::::<>Node<>::
 icon.svg::CompressedTexture2D::9051055816611408268::1704606687::1704606694::1::::<><>::
+main_game.tscn::PackedScene::537505036552004204::1704610433::0::1::::<><>::res://Player.gd<>uid://d17ntjmmwtpke::::res://icon.svg<>uid://cf3dxtqa32f2a::::res://PlayerStat.tres
+Player.gd::GDScript::-1::1704610432::0::1::::<>Node2D<>::
+PlayerStat.gd::GDScript::-1::1704609052::0::1::::PlayerStat<>Resource<>::
+PlayerStat.tres::Resource/PlayerStat::5181812409627158466::1704608583::0::1::::<><>::res://PlayerStat.gd
+::res://Nested Resource/::1704618167
+::res://Simple Resource/::1704618177
+main_game.tscn::PackedScene::537505036552004204::1704618181::0::1::::<><>::res://Player.gd<>uid://cf3dxtqa32f2a::::res://PlayerStat.tres<>uid://d17ntjmmwtpke::::res://icon.svg
